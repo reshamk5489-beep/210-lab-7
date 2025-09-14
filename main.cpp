@@ -16,10 +16,12 @@ int main()
     
     cout << "Original array: ";
     displayArray(arr);
-    cout << endl;
+    cout << endl << endl;
 
     cout << "Reversed array: ";
     string *modifiedArr = reverseArray(arr);
+    displayArray(modifiedArr);
+    cout << endl;
 
     delete[] arr;
     
